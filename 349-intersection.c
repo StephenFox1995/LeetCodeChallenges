@@ -66,4 +66,5 @@ int main(int argc, char *argv[]) {
     printf("\t%d\n", intersect[i]);
   }
   printf("]\n");
+  free(intersect);
 }
